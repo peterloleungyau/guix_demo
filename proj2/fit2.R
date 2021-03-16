@@ -9,3 +9,4 @@ iris_x <- as.matrix(iris[c("Sepal.Length", "Sepal.Width",
 fit <- glmnet(x = iris_x, y = is_setosa, family = "binomial")
 
 summary(fit)
+print(fit)
